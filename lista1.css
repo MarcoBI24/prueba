@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+}
+/*TITULO*/
+h1{
+    text-align: center;
+    font-size: 90px;
+}
+.titulo{
+    margin-bottom: 30px;
+    border-bottom: 3px solid;
+   
+}
+/*fin del titulo*/
+body{
+    background-color: rgb(241, 204, 37);
+}
+.contenedor{
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(38, 169, 221, 0.856);
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: rgb(52, 137, 216);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.contenedor:hover{
+    width: 410px;
+    height: 410px;
+    border-radius: 35px;
+}
+
+ul{
+    margin-top:30px;
+    margin-left:-30px;
+    list-style: none;
+    font-size: 35px;
+    font-family: Verdana;
+    text-align: center;
+}
+li{
+    margin-top:30px; 
+   
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-family:Impact;
+}
+.contenedor2{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(38, 169, 221, 0.856);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(52, 137, 216);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.things, .games{
+    margin-left:-30px;
+    list-style: none;
+    font-size: 32px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedor2:hover{
+    width: 410px;
+    height: 410px;
+    border-radius: 35px;
+}
+.contenedor3{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(38, 169, 221, 0.856);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgb(52, 137, 216);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.contenedor3:hover{
+    width: 410px;
+    height: 410px;
+    border-radius: 35px;
+}
+.lugares{
+    
+    list-style: none;
+    font-size: 35px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedor4{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(38, 169, 221, 0.856);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgb(52, 137, 216);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;}
+.contenedor4:hover{
+    width: 410px;
+    height: 410px;
+    border-radius: 35px;
+}       
+.gif{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*nav*/
+h3{
+    font-size: 30px;
+}
+.navegacion{
+   
+    list-style-type: square;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    
+}
+a{
+    text-decoration: none;
+    outline: none;
+
+    padding-left: 2px;
+    padding-right: 2px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:focus{
+    background: rgb(52, 137, 216);
+}
+a:hover{
+    
+    border-left: 2px solid;
+    border-right: 2px solid;
+    color: rgb(102, 102, 102);
+}
+.navegacion li{
+    margin-top: 20px;
+}
